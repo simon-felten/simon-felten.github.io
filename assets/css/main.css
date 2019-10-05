@@ -115,10 +115,10 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
+		/*a:hover {
 			border-bottom-color: transparent;
 			color: #4acaa8 !important;
-		}
+		}*/
 
 	strong, b {
 		color: #777;
@@ -2198,6 +2198,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		/*.image.logofooter {
+			border-radius: 30%;
+			overflow: hidden;
+		}*/
+
+			.image.logofooter img {
+				border-radius: 100%;
+				display: inline-block;
+				width: 20%;
+			}
+
 		.image.main {
 			display: block;
 			height: 20em;
@@ -2700,7 +2711,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #33605A; /* 4acaa8 */
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2712,24 +2723,24 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #E9E0D1;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #E9E0D1;
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #E9E0D1;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #E9E0D1;
 		}
 
-			#header a:hover {
+			/*#header a:hover {
 				color: #ffffff !important;
-			}
+			}*/
 
 		#header > header {
 			-moz-flex-shrink: 0;
@@ -2751,7 +2762,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #E9E0D1;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2789,7 +2800,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					/*border-top: solid 2px #5ccfb1;*/
 					display: block;
 					padding: 0;
 				}
@@ -2800,16 +2811,23 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #E9E0D1 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
+						/*#header > nav ul li a.hover {
+							background: #E9E0D1;
+							color: #00FF00 !important;
+						}*/
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #E9E0D1;
+							color: #33605A !important;
 						}
+
+						
+						
 
 					#header > nav ul li:first-child {
 						border-top: 0;
@@ -2818,7 +2836,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: #E9E0D1; /* #fff */
 		padding-right: 23em;
 	}
 
@@ -3076,7 +3094,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #4acaa8; 
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
