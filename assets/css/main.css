@@ -129,6 +129,13 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	/* a class for links in publications */
+	a.publink {
+		text-decoration: underline;
+		text-decoration-color: #68462B;
+		color: #68462B !important;
+	}
+
 	p {
 		margin: 0 0 2.25em 0;
 	}
@@ -2426,6 +2433,19 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
+/* info and stuff */
+	p.info {
+		font-style: italic;
+		margin-bottom: 1em !important;
+	}
+
+	em.date {
+		font-style: normal;
+		font-size: 80%;
+	}
+
+
+
 /* Icons */
 
 	ul.icons {
@@ -3144,6 +3164,11 @@ input, select, textarea {
 
 			h3 {
 				font-size: 1.5em;
+			}
+
+			h3.sectionhead {
+				font-size: 1.5em;
+				color: #33605A;
 			}
 
 			h4 {
