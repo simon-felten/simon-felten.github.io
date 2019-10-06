@@ -157,3 +157,11 @@
 		});
 
 })(jQuery);
+
+
+
+
+
+$(function () {
+   	$(".latex").latex();
+});

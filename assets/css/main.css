@@ -2816,7 +2816,7 @@ input, select, textarea {
 			#header > nav ul {
 				list-style: none;
 				margin: 0;
-				padding: 0;
+				padding: 3em;
 			}
 
 				#header > nav ul li {
@@ -2877,7 +2877,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #33605A;
+		background: #68462B; /*#91A398;*/ /*#33605A;*/
 		border-top: 0;
 		color: #E9E0D1;
 		overflow: hidden;
