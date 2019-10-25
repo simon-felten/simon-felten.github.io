@@ -12,7 +12,8 @@
 		$titleBar = null,
 		$nav = $('#nav'),
 		$wrapper = $('#wrapper');
-
+		$titleBarText = 'Simon Felten';
+	
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -125,7 +126,7 @@
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + $titleBarText + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);

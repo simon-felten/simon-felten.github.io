@@ -2205,15 +2205,45 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		/*.image.logofooter {
-			border-radius: 30%;
+		.image.logohome {
+			border-radius: 100%;
 			overflow: hidden;
-		}*/
+			width: 14%;
+			left: 54%;
+			top: 5em;
+			position: absolute;
+		}
+
+			.image.logohome img {
+				border-radius: 100%;
+				display: block;
+				width: 100%;
+			}
+
+		.image.surface {
+			border-radius: 100%;
+			overflow: hidden;
+			width: 50%;
+			object-position: center;
+			position: relative;
+		}
+
+			.image.surface img {
+				border-radius: 100%;
+				display: block;
+				width: 100%;
+			}
+
+		.image.logofooter {
+			border-radius: 100%;
+			overflow: hidden;
+			width: 70%;
+		}
 
 			.image.logofooter img {
 				border-radius: 100%;
 				display: inline-block;
-				width: 20%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2907,6 +2937,37 @@ input, select, textarea {
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+   /* two columns in footer */
+	
+
+	.column {
+  		float: left;
+	}
+
+	.left {
+ 		 width: 30%;
+		}
+
+	.right {
+  		width: 70%;
+  	}
+	
+
+	.foottext {
+		text-align: center;
+	}
+
+	/* Clear floats after the columns */
+	.row {
+		display: table-row;
+	}
+
+	.row:after {
+ 		 content: "";
+  		display: table;
+ 		 clear: both;
+	}
 
 /* XLarge */
 

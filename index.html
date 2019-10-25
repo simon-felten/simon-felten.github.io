@@ -6,28 +6,31 @@
 -->
 <html>
 	<head>
-		<title>Felten Math</title>
+		<title>Simon Felten Mathematics</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<script src="file:assets/jQuery/jquery.jslatex.js"></script>
+		<meta name="description" content="Here you can find publications and other materials mainly in logarithmic deformation theory from Simon Felten.">
+		<meta name="author" content="Simon Felten">
+		<meta name="keywords" content="Felten,Simon,math,mathematics, logarithmic,Mainz,deformation,toroidal,geometry,log">
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/logo_ausschnitt3_quadrat.png" alt="" /></span>
+					<span class="image avatar"><img src="images/portrait_800_quadrat.png" alt="" /></span>
 					<h1>Simon Felten</h1>
 					<p>Panta rhei</p>
 				</header>
 				<nav id="nav">
 					<ul>
 						<li><a href="#home" class="active">Home</a></li>
+						<li><a href="#quartic">Quartic Surface</a></li>
 						<li><a href="#cv">CV</a></li>
 						<li><a href="#publications">Publications</a></li>
-						<li><a href="#quartic">Quartic Surface</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 					</ul>
@@ -47,19 +50,64 @@
 
 
 						<!-- Home -->
-							<section id="home">
-								<div class="image main" data-position="center">
-									<img src="images/banner_buch_1.jpg" alt="" />
-									<span class="image avatar"><img src="images/logo_ausschnitt.png" alt="" /></span>
+							<section id="home">								
+								<div class="image main" data-position="center">			<img src="images/banner_buch_1.jpg" alt="" />
 								</div>
+								
+								
 								<div class="container">
 									<header class="major">
-										<h2>Simon Felten</h2>
-										<p>I am a PhD student of mathematics based in Mainz, Germany. I am interested in log geometry and applications to mirror symmetry and degenerating families.</p>
+										<h2>Simon Felten </h2>
+										<p>I am a PhD student of mathematics based in Mainz, Germany. I am interested in logarithmic deformation theory and applications to mirror symmetry.</p>
 									</header>
 								
 								</div>
+								
+								
 							</section>
+
+
+
+
+
+
+
+
+
+
+
+						<!-- Quartic -->
+							<section id="quartic">
+								<div class="container">
+									<h3> The Degeneration of the Smooth Quartic Surface </h3>
+									<div align="center">
+										<div class="image surface">
+											<img src="images/logo_ausschnitt3_quadrat.png">
+										</div>
+									</div>
+									The picture shows the union of four copies of the projective plane <b>P</b><sup>2</sup> in projective space <b>P</b><sup>3</sup> arranged like a tetrahedron. Indeed they are the four coordinate planes, so their union is defined by the homogeneous equation <i>xyzw = 0</i> in <b>P</b><sup>3</sup>. Let us denote this union by <i>D</i>. We obtain the four planes <i>D</i> as a degeneration of the smooth quartic surface <i>E</i> in <b>P</b><sup>3</sup> which is defined by the equation <i>x<sup>4</sup> + y<sup>4</sup> + z<sup>4</sup> + w<sup>4</sup> = 0</i> in <b>P</b><sup>3</sup>.
+                                    This means we have a total space
+ 									<div align="center"><i>X</i> = {<i>sxyzw - t(x<sup>4</sup> + y<sup>4</sup> + z<sup>4</sup> + w<sup>4</sup>) = 0</i>} in <b>P</b><sup>1</sup> x <b>P</b><sup>3</sup></div>
+ 									where the coordinates of <b>P</b><sup>1</sup> x <b>P</b><sup>3</sup> are ([<i>t:s</i>],[<i>x:y:z:w</i>]), and we have a map <i>f: X</i>&rarr;<b>P</b><sup>1</sup> given by the first projection. The degenerate surface <i>E</i> is the fiber <i>f</i><sup>-1</sup>(0) whereas the smooth surface <i>E</i> is the fiber <i>f</i><sup>-1</sup>(&infin;). It is deformed via the intermediate fibers <i>f</i><sup>-1</sup>(<i>t</i>) into <i>D</i> as <i>t</i>&rarr;0.
+ 									The 24 marked points in the picture are the singularities of the total space <i>X</i>. Indeed this variety is (in a neighbourhood of <i>D</i>) smooth everywhere except in these points. When we consider <i>f</i> via <i>f</i>: (<i>X,D</i>)&rarr;(<b>P</b><sup>1</sup>,<i>0</i>) as a morphism of pairs (or more fancily of logarithmic schemes), these 24 points become the locus where <i>f</i> is not logarithmically smooth. Treating such singularities of logarithmic maps is the starting point for the theory of log toroidal families which I developed in my PhD thesis. This theory is a partial generalization of toric degenerations as studied thoroughly by Gross-Siebert and others.
+ 									You can find more information about the example in the introduction of my <a href="https://www.glk.uni-mainz.de/files/2019/01/MasterThesis_Simon_Felten.pdf" target="_blank" class="publink"> Master Thesis</a>.
+
+								</div>
+							</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 						<!-- CV -->
 							<section id="cv">
@@ -126,21 +174,7 @@
 							 	</div>
 							</section>
 
-						<!-- Quartic -->
-							<section id="quartic">
-								<div class="container">
-									<h3> The Degeneration of the Smooth Quartic Surface </h3>
-									<div align="center">
-										<img src="images/logo_ausschnitt3_quadrat.png" width="50%" height="50%">
-									</div>
-									The picture shows the union of four copies of the projective plane <b>P</b><sup>2</sup> in projective space <b>P</b><sup>3</sup> arranged like a tetrahedron. Indeed they are the four coordinate planes, so their union is defined by the homogeneous equation <i>xyzw = 0</i> in <b>P</b><sup>3</sup>. Let us denote this union by <i>D</i>. We obtain the four planes <i>D</i> as a degeneration of the smooth quartic surface <i>E</i> in <b>P</b><sup>3</sup> which is defined by the equation <i>x<sup>4</sup> + y<sup>4</sup> + z<sup>4</sup> + w<sup>4</sup> = 0</i> in <b>P</b><sup>3</sup>.
-                                    This means we have a total space
- 									<div align="center"><i>X</i> = {<i>sxyzw - t(x<sup>4</sup> + y<sup>4</sup> + z<sup>4</sup> + w<sup>4</sup>) = 0</i>} in <b>P</b><sup>1</sup> x <b>P</b><sup>3</sup></div>
- 									where the coordinates of <b>P</b><sup>1</sup> x <b>P</b><sup>3</sup> are ([<i>t:s</i>],[<i>x:y:z:w</i>]), and we have a map <i>f: X</i>&rarr;<b>P</b><sup>1</sup> given by the first projection. The degenerate surface <i>E</i> is the fiber <i>f</i><sup>-1</sup>(0) whereas the smooth surface <i>E</i> is the fiber <i>f</i><sup>-1</sup>(&infin;). It is deformed via the intermediate fibers <i>f</i><sup>-1</sup>(<i>t</i>) into <i>D</i> as <i>t</i>&rarr;0. The 24 marked points in the picture are the singularities of the total space <i>X</i>. Indeed this variety is (in a neighbourhood of <i>D</i>) smooth everywhere except in these points. When we consider <i>f</i> via <i>f</i>: (<i>X,D</i>)&rarr;(<b>P</b><sup>1</sup>,<i>0</i>) as a morphism of pairs (or more fancily of logarithmic schemes), these 24 points become the locus where <i>f</i> is not logarithmically smooth. Treating such singularities of logarithmic maps is the starting point for the theory of log toroidal families which I developed in my PhD thesis.
- 									You can find more information about the example in the introduction of my <a href="https://www.glk.uni-mainz.de/files/2019/01/MasterThesis_Simon_Felten.pdf" target="_blank" class="publink"> Master Thesis</a>.
-
-								</div>
-							</section>
+						
 
 
 						<!-- Contact -->
@@ -176,12 +210,26 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
+							<div class="row">
+								<div class="column left" align="center">
+									<div class="image logofooter"><img src="images/logo_ausschnitt3_quadrat.png" alt=""/></div>
+								</div>
+								<div class="column right">
+									<div class="foottext">
+									Simon Felten <br>
+									<a href="mailto:felten.math@posteo.net">felten.math@posteo.net</a>
+									</div>
+								</div>
+							</div>
 							
+
+
+							<!--
 							<ul class="copyright">
 								<li class="image logofooter"><img src="images/logo_ausschnitt3_quadrat.png" alt=""/></li>
 								<li>Simon Felten</li>
 								<li><a href="mailto:felten.math@posteo.net">felten.math@posteo.net</a></li>
-							</ul>
+							</ul>-->
 						</div>
 					</section>
 
