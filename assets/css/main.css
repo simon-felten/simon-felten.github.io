@@ -2938,9 +2938,41 @@ input, select, textarea {
 					color: inherit;
 				}
 
+	.grid-container {
+
+                    display: grid;
+
+                    grid-template-columns: repeat(auto-fill, 15em);
+
+                    padding: 1.5em;
+
+                  }
+
+                 
+
+                  .grid-item {
+
+                    text-align: center;
+
+                    line-height: 3em;
+
+                    font-size: 1.1em;
+
+                    padding: 1em;
+
+                  }          
+
+                 
+
+                  .grid-item img {
+
+                    border-radius: 100%;                    
+
+                  }
+
    /* two columns in footer */
 	
-
+ 
 	.column {
   		float: left;
 	}
@@ -3333,6 +3365,12 @@ input, select, textarea {
 					#footer .copyright li:first-child {
 						margin-top: 0;
 					}
+
+			.grid-container {
+
+                grid-template-columns: auto;
+
+            }
 
 		/* Header Panel */
 
